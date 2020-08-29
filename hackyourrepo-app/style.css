@@ -1,3 +1,34 @@
+.main-container{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0.5%;
+}
+
+.repo-container{
+  width: 49%;
+  border: black 1px solid;
+}
+
+.contributors-container{
+  width: 49%;
+  margin-top: 0px;
+  border: black 1px solid;
+  
+}
+
+.header{
+  background-color: rgb(28, 28, 119);
+  display: flex;
+  color: white;
+}
+.header p{
+  padding-left: 10px;
+}
+
+.options{
+  margin: 15px 0 0 20px; 
+  width: 100px;
+}
 /* 
   Write here your CSS rules for HackYourRepo!
 */
